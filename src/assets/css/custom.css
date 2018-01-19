@@ -1,0 +1,105 @@
+/* ion-content {
+    background: linear-gradient(to bottom right, #46d6a3, #37a2f0);
+}
+.item-md p,
+.item-ios p,
+.label-ios {
+    color: #F5F5F5;
+}
+.toolbar-background {
+    border-color: #b2b2b2;
+    background: transparent;
+}
+.item {
+    background: transparent;
+}
+.ion-ios-arrow-forward-outline {
+    color: #fff;
+}
+.tabbar {
+    background: #37a2f0 !important;
+}
+.tab-button[aria-selected=true] {
+    color: #37a2f0 !important;
+    background: #F5F5F5 !important;
+}
+.tab-button[aria-selected=true] .tab-button-icon {
+    color: #37a2f0 !important;
+}
+.tab-button,
+.tab-button-icon,
+.toolbar-title,
+.back-button {
+    color: #F5F5F5 !important;
+}
+.header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+    background-color: #F5F5F5 !important;
+}
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {
+    border-color: #F5F5F5 !important;
+} */
+body {
+    color: #242424;
+}
+/* Colors */
+.dark-blue-bg{
+    background-color: #456ab0;
+}
+.red-bg {
+    background-color: #f0513c;
+}
+.white-bg {
+    background-color: #ffffff;
+}
+.orange-bg {
+    background-color: #ffab4e;
+}
+
+.white-font {
+    color: #ffffff
+}
+.dark-blue-font{
+    color: #456ab0;
+}
+.red-font {
+    color: #bc2122;
+}
+.orange-font {
+    color: #ffab4e;
+}
+.black-font {
+    color: #242424 !important;
+}
+.gray-font {
+    color: gray;
+}
+
+.toolbar-background {
+    background-color: #8baad9;
+}
+.toolbar-title {
+    color: #ffffff;
+}
+.back-button.show-back-button {
+    color: #ffffff;
+}
+
+.tab-button[aria-selected=true] {
+    background-color: #bc2122;
+}
+.toolbar-background {
+    background-color: #8baad9;
+}
+
+/* Bus list css */
+.bus-list .item-md:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bus-list .item-md:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.item > ion-icon, .item-inner > ion-icon {
+    color: #bc2122;
+}

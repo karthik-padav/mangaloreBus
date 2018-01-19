@@ -1,0 +1,116 @@
+[{
+    "id": "1",
+    "BusNo": "1",
+    "From": "State Bank",
+    "To":"Kunjathbail" ,
+    "ViaRoute":["State Bank","Carstreet", "Alake", "Mannagudda", "Ladyhill","Chilimbi", "Urwastore", "Kottar", "Kavoor", "Marakada","Kunjathbail"]
+},
+{
+    "id": "2",
+    "BusNo": "1A",
+    "From": "State Bank",
+    "To":"Thannirbavi",
+    "ViaRoute":["State Bank","Hampankatta", "Lalbhagh", "Ladyhill", "Kottar", "Kulur","Thannirbavi"]
+},
+{
+    "id": "3",
+    "BusNo": "1B",
+    "From": "State Bank",
+    "To":"Kodical",
+    "ViaRoute":["State Bank", "Carstreet", "Alake", "Mannagudde", "Ladihill", "Urwastore", "Kodical cross", "Kodical School", "Kodical"]
+},
+{
+    "id": "4",
+    "BusNo": "1B",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[]
+},
+{
+    "id": "5",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[]
+},
+{
+    "id": "6",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "7",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "8",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "9",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "10",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "11",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "1[]",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "13",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+},
+{
+    "id": "14",
+    "BusNo": "Q3",
+    "From": "A3",
+    "To":1 ,
+    "ViaRoute":[] ,
+    "option3":3 ,
+    "option4":4 
+}]

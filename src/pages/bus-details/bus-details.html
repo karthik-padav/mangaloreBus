@@ -1,0 +1,44 @@
+<!--
+  Generated template for the BusDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{busDetails.BusNo}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-card>
+        <ion-card-header class="bus-icon">
+            <!-- <ion-icon name="bus"></ion-icon> -->
+            <img src="./assets/imgs/bus.png" alt="icon" />
+        </ion-card-header>
+        <ion-card-content>
+            <ion-card-title text-center>
+              <b class="gray">Bus Number: <span class="red-font">{{busDetails.BusNo}}</span></b>
+            </ion-card-title>
+            <p text-center><b class="red-font">From: </b>{{busDetails.From}}</p>
+            <p text-center><b class="red-font">To: </b>{{busDetails.To}}</p>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+          <ion-card-header>
+              <b class="red-font">Via-Route</b>
+          </ion-card-header>
+        
+          <ion-list>
+            <ion-item *ngFor="let route of busDetails.ViaRoute; let index = index">
+                <ion-icon name="bus" item-start *ngIf="index ==0 || index == busDetails.ViaRoute.length-1"></ion-icon>
+                <ion-icon name="md-disc" item-start *ngIf="index !=0 && index != busDetails.ViaRoute.length-1"></ion-icon>
+              {{route}}
+            </ion-item>
+          </ion-list>
+        </ion-card>
+</ion-content>

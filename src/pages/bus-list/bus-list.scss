@@ -1,0 +1,20 @@
+page-bus-list {
+
+}
+ion-avatar .busNumber {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    background: #bc2122;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.list-ios > .item-block:last-child,
+.list-ios > .item-block:first-child,
+.list-ios > .item-wrapper:last-child .item-block {
+    border-bottom: none;
+    border-top: none;
+}

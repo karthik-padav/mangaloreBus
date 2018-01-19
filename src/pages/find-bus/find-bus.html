@@ -1,0 +1,30 @@
+<!--
+  Generated template for the FindBusPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>FB</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-list padding>
+      <ion-item *ngFor="let routes of filterdRoutes" (click)="selectedPlace(routes)">
+          <ion-icon name="ios-arrow-forward-outline" item-end></ion-icon>
+          {{ routes }}
+      </ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item class="noData" *ngIf="filterdRoutes.length==0">
+        Location not found
+      </ion-item>
+    </ion-list>
+</ion-content>

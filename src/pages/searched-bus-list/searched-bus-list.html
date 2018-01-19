@@ -1,0 +1,38 @@
+<!--
+  Generated template for the SearchedBusListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{busList.place}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-card *ngFor="let bus of busList.data" (click)="busDetails(bus)">
+        <ion-card-header>
+            <b class="gray">Bus number: <span class="red-font">{{bus.BusNo}}</span></b>
+        </ion-card-header>
+      
+        <ion-list>
+            <ion-item>
+                <ion-icon name="bus" item-start></ion-icon>
+                {{bus.From}}
+            </ion-item>
+            <ion-item>
+                <ion-icon name="md-disc" item-start></ion-icon>
+                <span class="desti-p">{{busList.place}}</span>
+            </ion-item>
+            <ion-item>
+                <ion-icon name="bus" item-start></ion-icon>
+                {{bus.To}}
+            </ion-item>
+      
+        </ion-list>
+      </ion-card>
+</ion-content>
